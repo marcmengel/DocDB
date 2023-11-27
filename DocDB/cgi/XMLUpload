@@ -34,6 +34,8 @@ use XML::Twig;
 use FindBin qw($Bin);
 use lib $Bin;
 
+use FindBin qw($RealBin);
+use lib $RealBin;
 require "DocDBGlobals.pm";
 require "HTMLUtilities.pm";
 require "ResponseElements.pm";
