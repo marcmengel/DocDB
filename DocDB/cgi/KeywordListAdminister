@@ -32,8 +32,8 @@ use DBI;
 use FindBin qw($Bin);
 use lib $Bin;
 
-use FindBin qw($RealBin);
-use lib $RealBin;
+use FindBin qw($Bin);
+use lib $Bin;
 require "DocDBGlobals.pm";
 require "Sorts.pm";
 require "ResponseElements.pm";
