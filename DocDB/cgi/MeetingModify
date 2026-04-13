@@ -455,7 +455,6 @@ if ($SetMode eq "create") { # Defaults for new meetings, just like for documents
 }
 
 if ($Mode eq "copy" && $OffsetDays) {
-  use DateTime;
   my ($StartYear,$StartMonth,$StartDay) = split /-/,$DefaultStartDate;
   my ($EndYear,$EndMonth,$EndDay)       = split /-/,$DefaultEndDate;
 
