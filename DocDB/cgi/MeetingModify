@@ -28,8 +28,7 @@ use CGI qw(-nosticky);
 use CGI::Untaint;
 use DBI;
 use Time::Local;
-use FindBin qw($Bin);
-use lib $Bin;
+use DateTime;
 
 use FindBin qw($Bin);
 use lib $Bin;
