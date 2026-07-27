@@ -29,8 +29,6 @@
 use CGI qw(-nosticky);
 use CGI::Untaint;
 use DBI;
-use FindBin qw($Bin);
-use lib $Bin;
 
 use FindBin qw($Bin);
 use lib $Bin;
